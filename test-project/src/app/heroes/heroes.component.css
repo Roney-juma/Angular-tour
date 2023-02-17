@@ -8,6 +8,11 @@
   .heroes li {
     position: relative;
     cursor: pointer;
+    display:flex;
+    flex-direction: row;
+  }
+  .heroes li button{
+    background-color: red;
   }
   
   .heroes li:hover {
